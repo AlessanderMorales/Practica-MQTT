@@ -5,8 +5,8 @@
 
 class Light {
 private:
-    int pin;        // Pin del relé
-    bool state;     // Estado del foco
+    int pin;    
+    bool state;     
 
 public:
     Light(int pin);
